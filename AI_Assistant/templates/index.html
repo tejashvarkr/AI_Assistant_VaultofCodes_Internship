@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Assistant</title>
+</head>
+<body>
+    <h1>🧠 AI Assistant</h1>
+    <form method="POST">
+        <label for="function">Choose Function:</label>
+        <select name="function" id="function">
+            <option value="question">Answer a Question</option>
+            <option value="summary">Summarize Text</option>
+            <option value="creative">Generate Creative Content</option>
+        </select>
+        <br><br>
+        <label for="user_input">Enter your prompt:</label><br>
+        <textarea name="user_input" rows="5" cols="50" required></textarea><br><br>
+        
+        <button type="submit">Generate</button>
+    </form>
+
+    {% if result %}
+        <h2>Response:</h2>
+        <p>{{ result }}</p>
+        
+        <form method="POST">
+            <input type="hidden" name="user_input" value="{{ request.form['user_input'] }}">
+            <input type="hidden" name="function" value="{{ request.form['function'] }}">
+            <label>Was this response helpful?</label>
+            <select name="feedback">
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+            </select>
+            <button type="submit">Submit Feedback</button>
+        </form>
+    {% endif %}
+
+
+{% if result %}
+    <h2>Prompt used:</h2>
+    <p>{{ prompt }}</p>
+
+    <h2>Response:</h2>
+    <p>{{ result }}</p>
+
+    <form method="POST">
+        <input type="hidden" name="user_input" value="{{ request.form['user_input'] }}">
+        <input type="hidden" name="function" value="{{ request.form['function'] }}">
+        <label>Was this response helpful?</label>
+        <select name="feedback">
+            <option value="">Select</option>
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+        </select>
+        <button type="submit">Submit Feedback</button>
+    </form>
+{% endif %}
+</body>
+</html>

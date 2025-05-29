@@ -1,0 +1,39 @@
+Prompt: Answer this factual question concisely: What is the capital of India and The Us , the UK and France canada  england
+Response: *   **India:** New Delhi
+*   **US:** Washington, D.C.
+*   **UK:** London
+*   **France:** Paris
+*   **Canada:** Ottawa
+*   **England:** London
+Feedback: Yes
+
+Prompt: Provide a detailed explanation for: What is the capital of India and The Us , the UK and France canada  england
+Response: Okay, let's break down the capitals of each of the countries you listed:
+
+**1. India:**
+
+*   **Capital:** New Delhi
+*   **Explanation:** New Delhi is the capital of India. It's a city located within the National Capital Territory of Delhi. Delhi has served as a political and administrative center for various empires throughout Indian history, including the Delhi Sultanate and the Mughal Empire. New Delhi was specifically planned and built by the British in the early 20th century to become the new capital of British India, replacing Calcutta (now Kolkata). It officially became the capital in 1931.  It houses the Parliament of India, the Supreme Court, the Rashtrapati Bhavan (Presidential Residence), and various other important government buildings.
+
+**2. The United States (The US):**
+
+*   **Capital:** Washington, D.C. (District of Columbia)
+*   **Explanation:** Washington, D.C. is a unique entity. It's not part of any U.S. state; it's a federal district. It was specifically created to be the capital of the United States. The decision to create a separate district was made to avoid giving
+Feedback: Yes
+
+Prompt: List three interesting facts about: What is the capital of India and The Us , the UK and France canada  england
+Response: Okay, here are three interesting facts about the capitals of India, the US, the UK, France, and Canada, followed by three interesting facts about England:
+
+**1. New Delhi, India (Capital of India):**
+
+*   **Planned City:** New Delhi was meticulously planned by British architects Edwin Lutyens and Herbert Baker, intended to be a symbol of British power and a modern capital.
+*   **Relatively New Capital:** While Delhi has a long history, New Delhi only became the capital in 1931, replacing Calcutta.
+*   **Air Quality Issues:** New Delhi often faces severe air pollution, particularly during the winter months, becoming a major environmental challenge.
+
+**2. Washington, D.C., USA (Capital of the US):**
+
+*   **No State Affiliation:** Washington, D.C. is not part of any U.S. state; it's a federal district directly under the control of Congress.
+*   **Named After George Washington:** The city is named in honor of George Washington, the first U.S. President, and the "D.C." stands for "District of Columbia."
+*   **Height Restrictions:** To preserve the
+Feedback: Yes
+
